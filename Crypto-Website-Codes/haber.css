@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #1A82E3;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.logo_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #e7e7e7;
+}
+
+.content {
+    width: 1600px;
+    height: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.contentbir {
+    width: 800px;
+    height: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.contentbir h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1A82E3;
+    text-align: center;
+}
+
+.contentbir p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: bolder;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1A82E3;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1A82E3;
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: bolder;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1A82E3;
+    text-align: center;
+}
+
+.gif-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ev-icon {
+    color: #ffffff;
+}
+
+.tel-icon {
+    color: #ffffff;
+}
+
+.alev-icon {
+    color: rgb(255, 255, 255);
+}
+
+.domuz {
+    width: 50%;
+    height: 50%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .content-container .airdropbir,
+.content .content-container .airdropiki,
+.content .content-container .airdropuc {
+    width: 100%;
+    max-width: 1500px;
+    height: 100px;
+    box-shadow: 0 0 5px #1A82E3;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imagebir {
+    width: 84%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.imagebir img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.imageiki {
+    width: 84%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.imageiki img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.imageuc {
+    width: 84%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.imageuc img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.socials {
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+.socials a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.socials .opensea {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contentbir {
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .content-container .airdropbir,
+    .content .content-container .airdropiki,
+    .content .content-container .airdropuc {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .imagebir,
+    .imageiki,
+    .imageuc {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .socials {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .socials a {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo_name {
+        font-size: 20px;
+    }
+
+    .content h1,
+    .content h2 {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .socials a {
+        margin-right: 5px;
+    }
+
+    .socials .opensea {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Modal CSS */
+.modal {
+    display: none; /* Modal varsayılan olarak gizli */
+    position: fixed; /* Sabit konum */
+    z-index: 1; /* Ön plana getir */
+    left: 0;
+    top: 0;
+    width: 100%; /* Tam genişlik */
+    height: 100%; /* Tam yükseklik */
+    overflow: auto; /* Gerekirse kaydır */
+    background-color: rgb(0, 0, 0); /* Fallback renk */
+    background-color: rgba(0, 0, 0, 0.4); /* Siyah w/ opaklık */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Ekranın ortasına yerleştir */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    border-radius: 8px; /* Köşeleri yuvarla */
+    box-shadow: 0 0 10px rgba(0,0,0,0.25); /* Gölge ekle */
+    position: relative; /* Position relative ekledik */
+}
+
+.close {
+    color: #1A82E3;
+    float: right;
+    margin-right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute; /* Position absolute ekledik */
+    top: 10px; /* Yukarıdan 10px */
+    right: 10px; /* Sağdan 10px */
+}
+
+.close:hover,
+.close:focus {
+    color: #135ca0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h2,
+.modal-content p {
+    text-align: center; /* Metinleri ortaladık */
+    color: #1A82E3;
+}
+
+.modal-content h2 {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.modal-content p {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,298 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1A82E3;
+    height: 100%;
+}
+
+.anasayfa {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1A82E3;
+}
+
+.ust {
+    height: 50px;
+    background-color: #1A82E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.koin {
+    color: #1A82E3;
+}
+
+.ust .name {
+    color: white;
+    font-weight: 900;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+}
+
+.sol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.koinkutu {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 77%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.koinkutu .baslik {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.koinkutu .detaylar {
+    display: flex;
+    justify-content: center;
+}
+
+.koinkutu .fiyat {
+    flex-basis: 20%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.koinkutu .volume {
+    flex-basis: 20%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.koinkutu .degisimone {
+    flex-basis: 20%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.koinkutu .degisimtwo {
+    flex-basis: 20%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.koinkutu .degisimthree {
+    flex-basis: 20%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.positive {
+    color: green;
+    flex-basis: 25%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.negative {
+    color: red;
+    flex-basis: 25%; /* Fiyat ve değişim için temel genişlik %48 */
+    text-align: center; /* İçeriği ortala */
+    font-size: 18px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+}
+
+.time-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.time-buttons button {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #1A82E3;
+}
+
+.time-buttons button:hover {
+    background-color: #1A82E3;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navigation button {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #1A82E3;
+}
+
+.navigation button:hover {
+    background-color: #1A82E3;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.anasayfa-butonu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.anasayfa-butonu button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+    color: #1A82E3;
+    font-weight: bolder;
+}
+
+.anasayfa-butonu button:hover {
+    background-color: #e7e7e7;
+}
+
+.ev-icon {
+    color: #1A82E3;
+}
+
+.favorite-icon {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.favorite-icon.filled {
+    color: gold;
+}
+
+.section-title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.coin-buttons, .favorite-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.coin-buttons button, .favorite-buttons button {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #1A82E3;
+}
+
+.coin-buttons button:hover, .favorite-buttons button:hover {
+    background-color: #1A82E3;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+    .koinkutu {
+        width: 90%;
+    }
+
+    .koinkutu .detaylar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .koinkutu .fiyat,
+    .koinkutu .volume,
+    .koinkutu .degisimone,
+    .koinkutu .degisimtwo,
+    .koinkutu .degisimthree {
+        flex-basis: 100%;
+        font-size: 16px;
+    }
+
+    .time-buttons {
+        align-items: center;
+    }
+
+    .time-buttons button {
+        width: 80%;
+        margin: 5px 0;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation button {
+        width: 80%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .ust .name {
+        font-size: 18px;
+    }
+
+    .anasayfa-butonu button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .koinkutu .baslik {
+        font-size: 20px;
+    }
+
+    .koinkutu .fiyat,
+    .koinkutu .volume,
+    .koinkutu .degisimone,
+    .koinkutu .degisimtwo,
+    .koinkutu .degisimthree {
+        font-size: 14px;
+    }
+
+    .time-buttons button {
+        width: 90%;
+    }
+
+    .navigation button {
+        width: 90%;
+    }
+}

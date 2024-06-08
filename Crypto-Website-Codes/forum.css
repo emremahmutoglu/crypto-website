@@ -1,0 +1,102 @@
+.text {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.messagekutu{
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 560px;
+    max-width: 560px;
+}
+
+.coinsec{
+    width: 560px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1A82E3;
+}
+
+form select, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #1A82E3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #116cc0;
+}
+
+.messages {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.message p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.message strong {
+    font-weight: bold;
+    color: #1A82E3;
+}
+
+.reply-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #1A82E3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.reply-button:hover {
+    background: #116cc0;
+}
